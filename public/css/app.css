@@ -112,3 +112,125 @@ a {
   -o-object-position: top;
      object-position: top;
 }
+
+main .products-list {
+  position: relative;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px 0 30px;
+}
+main .products-list .current-series {
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  padding: 10px 35px;
+  bottom: calc(100% - 25px);
+  left: 15%;
+  font-size: 25px;
+  background-color: #0082f9;
+  font-stretch: condensed;
+}
+main .products-list h2 {
+  color: #0282f9;
+  text-transform: uppercase;
+}
+main .products-list .product-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .products-list .product-cards-wrapper .product-card {
+  margin: 18px;
+  width: calc(16.6666666667% - 36px);
+}
+main .products-list .product-cards-wrapper .product-card img {
+  height: 185px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin: 20px 0;
+}
+main .products-list .product-cards-wrapper .product-card h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+main .center-margin {
+  text-align: center;
+}
+main .center-margin .load-more-btn {
+  background-color: #0082f9;
+  padding: 10px 55px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cta {
+  height: 150px;
+  background-color: #0082f9;
+}
+.cta .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.cta .content-cta {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.cta .content-cta img {
+  width: 55px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cta .content-cta span {
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer-top {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  color: #949494;
+  font-size: 12px;
+}
+.footer-top .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-top .container .footer-menu {
+  padding: 50px 0 20px;
+  margin: 0 20px;
+  position: relative;
+  z-index: 1;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top .container .footer-menu li {
+  padding: 3px 0;
+}
+.footer-top .container .footer-menu .ul-section {
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.footer-top .container div.bg-img {
+  height: 370px;
+  width: 540px;
+  background-image: url("../images/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+.footer-top .container .blue {
+  color: #0282f9;
+}

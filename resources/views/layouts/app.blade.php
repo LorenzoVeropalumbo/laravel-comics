@@ -15,6 +15,9 @@
 
     <main>
         @yield('main_content')
+        @yield('cta_content')
     </main>
+
+    @include('partials.footer_top')
 </body>
 </html>
