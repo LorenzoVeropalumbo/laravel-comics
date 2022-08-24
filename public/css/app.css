@@ -235,3 +235,35 @@ main .center-margin .load-more-btn {
 .footer-top .container .blue {
   color: #0282f9;
 }
+
+.footer-bottom {
+  background-color: #303030;
+  padding: 30px 0;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .btn {
+  border: 2px solid #0082f9;
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.footer-bottom ul {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom ul .text {
+  font-size: 21px;
+  font-weight: 900;
+  color: #0082f9;
+}
+.footer-bottom ul li {
+  padding: 0 10px;
+}
+.footer-bottom ul li img {
+  width: 35px;
+  height: 35px;
+}

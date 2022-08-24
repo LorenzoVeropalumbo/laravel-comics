@@ -18,6 +18,10 @@
         @yield('cta_content')
     </main>
 
-    @include('partials.footer_top')
+    <footer>
+       @include('partials.footer_top') 
+       @include('partials.footer_bottom') 
+    </footer>
+    
 </body>
 </html>
