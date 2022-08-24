@@ -8,7 +8,7 @@
           {{-- Single product --}}
           <div class="product-card">
               <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
-              <h3>{{ $pasta['title'] }}</h3>
+              <h3>{{ $comic['title'] }}</h3>
           </div>
         @endforeach
       </div>
