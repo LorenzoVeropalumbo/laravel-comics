@@ -5,13 +5,10 @@
   font-size: 12px;
 
   .container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+    position: relative;
+    padding-bottom: 30px;
     .footer-menu{         
-      padding: 50px 0 20px;
-      margin: 0 20px;
+      padding: 50px 0 10px;
       position: relative;
       z-index: 1;
       width: 30%;
@@ -31,11 +28,14 @@
     
     div{
       &.bg-img{
-        height: 370px;
+        height: 388px;
         width: 540px; 
         background-image: url('../images/dc-logo-bg.png');
         background-size: cover;
         background-position: center;  
+        position: absolute;
+        right: 0;
+        top: 0;
       }
     }
 
