@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-top {
+  background-color: #0282f9;
+  text-align: right;
+  height: 20px;
+  color: white;
+}
+.header-top .fake-select {
+  font-size: 12px;
+  cursor: pointer;
+}
+.header-top .fake-select i {
+  padding-left: 5px;
+}
+.header-top .visa-content {
+  font-size: 12px;
+  cursor: pointer;
+  padding-right: 50px;
+}
+
+.header-bottom {
+  height: 100px;
+}
+.header-bottom .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.header-bottom .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-bottom .menu .logo-dc {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+}
+.header-bottom .menu .manu-ul {
+  display: flex;
+}
+.header-bottom .menu .manu-ul li {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #525960;
+  line-height: 64px;
+  padding: 15px;
+  cursor: pointer;
+}
+.header-bottom .menu .manu-ul li i {
+  color: #0282f9;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.header-bottom .menu .manu-ul li.current {
+  color: #2789f9;
+  border-bottom: 1px solid #2789f9;
+  border-bottom-width: 6px;
+}
+.header-bottom .search-bar {
+  border-bottom: 2px solid #0282f9;
+}
+.header-bottom .search-bar input {
+  border: none;
+  width: 120px;
+  text-align: right;
+  font-family: inherit;
+  font-size: 17px;
+  padding-right: 10px;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.jumbotron-image {
+  height: 400px;
+}
+.jumbotron-image img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
