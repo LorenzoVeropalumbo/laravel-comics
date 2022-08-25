@@ -267,3 +267,38 @@ main .center-margin .load-more-btn {
   width: 35px;
   height: 35px;
 }
+
+.product-item .item-image-box {
+  height: 80px;
+  background-color: #0282f9;
+  position: relative;
+}
+.product-item .item-image-box .comics-container {
+  width: 200px;
+  position: absolute;
+  left: 420px;
+  bottom: 15px;
+  border: 1px solid white;
+}
+.product-item .item-image-box .comics-container .comic-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00a9d9;
+  padding: 2px 4px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.product-item .item-image-box .comics-container .view-gallery {
+  background-color: #00a9d9;
+  padding: 2px 4px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.product-item .product-description .descpition-section {
+  width: 70%;
+}

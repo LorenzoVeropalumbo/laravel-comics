@@ -23,6 +23,7 @@ Route::get('/', function () {
     
 })->name('home');
 
-Route::get('/products', function () {
+Route::get('/single-item', function () {
 
-})->name('products');
+    return view('single-item');
+})->name('single-item');
