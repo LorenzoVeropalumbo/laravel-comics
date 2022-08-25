@@ -41,19 +41,19 @@
     <div class="cta-container">
       <div class="cta-col border-left">
         <span>Digital Comics</span>
-        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
+        <div class="image-box1"></div>       
       </div>
       <div class="cta-col">
         <span>Shop dc</span>
-        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
+        <div class="image-box4"></div> 
       </div>
       <div class="cta-col">
         <span>Comics Shop Locator</span>
-        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
+        <div class="image-box3"></div> 
       </div>
       <div class="cta-col">
         <span>Subscription</span>
-        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
+        <div class="image-box2"></div> 
       </div>
     </div> 
   </div>

@@ -9,7 +9,7 @@
     .cta-col{
       width: 14%;
       border-right: 1px solid #e8e8e8;
-      padding: 8px 15px;
+      padding: 15px 15px;
       display: flex;
       justify-content: space-between;
 
@@ -17,12 +17,40 @@
         font-size: 12px;
         font-weight: 600;
         text-transform: uppercase;
-        color: #bfbfbf;
+        color: #8c8c8c;
       }
 
-      img{
-        width: 45px;
-        color: #bfbfbf;
+      .image-box1{
+        width: 40px;
+        height: 44px;
+        background-image: url('../images/cta-icons.png');
+        background-repeat: no-repeat;
+        background-size: 180px;
+        background-position: 0 0;
+      }
+      .image-box2{
+        width: 48px;
+        height: 45px;
+        background-image: url('../images/cta-icons.png');
+        background-repeat: no-repeat;
+        background-size: 180px;
+        background-position: -44px 0;
+      }
+      .image-box3{
+        width: 36px;
+        height: 44px;
+        background-image: url('../images/cta-icons.png');
+        background-repeat: no-repeat;
+        background-size: 180px;
+        background-position: -90px 0;
+      }
+      .image-box4{
+        width: 36px;
+        height: 45px;
+        background-image: url('../images/cta-icons.png');
+        background-repeat: no-repeat;
+        background-size: 180px;
+        background-position: -135px 0;
       }
     }
     .border-left{
