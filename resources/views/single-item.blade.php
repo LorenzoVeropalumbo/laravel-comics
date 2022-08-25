@@ -40,16 +40,20 @@
   <div class="cta-content">
     <div class="cta-container">
       <div class="cta-col border-left">
-        dwada
+        <span>Digital Comics</span>
+        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
       </div>
       <div class="cta-col">
-        dwada
+        <span>Shop dc</span>
+        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
       </div>
       <div class="cta-col">
-        dwada
+        <span>Comics Shop Locator</span>
+        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
       </div>
       <div class="cta-col">
-        dwada
+        <span>Subscription</span>
+        <img src="{{asset('../images/footer-facebook.png')}}" alt="">
       </div>
     </div> 
   </div>

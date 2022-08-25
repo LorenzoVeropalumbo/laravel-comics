@@ -9,7 +9,21 @@
     .cta-col{
       width: 14%;
       border-right: 1px solid #e8e8e8;
-      padding: 0 15px;
+      padding: 8px 15px;
+      display: flex;
+      justify-content: space-between;
+
+      span{
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #bfbfbf;
+      }
+
+      img{
+        width: 45px;
+        color: #bfbfbf;
+      }
     }
     .border-left{
       border-left: 1px solid #e8e8e8;
