@@ -32,5 +32,6 @@
         <img src="{{asset('../images/adv.jpg')}}" alt="">
       </div>
     </div>
+    @include('partials.product_info')
   </section>
 @endsection
