@@ -12,7 +12,7 @@
         </div>      
         <ul class="manu-ul">
           <li><a>characters</a></li>
-          <li class="current"><a>comics</a></li>
+          <li class="{{ Route::current()->getName() === 'home' ? 'current' : '' }}"><a href="{{ route('home') }}">comics</a></li>
           <li><a>movies</a></li>
           <li><a>tv</a></li>
           <li><a>games</a></li>
@@ -20,7 +20,7 @@
           <li><a>videos</a></li>
           <li><a>fans</a></li>
           <li><a>news</a></li>
-          <li><a>shop <i class="fa-solid fa-caret-down"></i></a></li>
+          <li class="{{ Route::current()->getName() === 'single-item' ? 'current' : '' }}"><a>shop <i class="fa-solid fa-caret-down"></i></a></li>
         </ul>
         <div class="search-bar">
           <input type="text" placeholder="Search"><i class="fa fa-search"></i>
