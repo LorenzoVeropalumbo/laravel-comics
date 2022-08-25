@@ -35,3 +35,23 @@
     @include('partials.product_info')
   </section>
 @endsection
+
+@section('cta_content')
+  <div class="cta-content">
+    <div class="cta-container">
+      <div class="cta-col border-left">
+        dwada
+      </div>
+      <div class="cta-col">
+        dwada
+      </div>
+      <div class="cta-col">
+        dwada
+      </div>
+      <div class="cta-col">
+        dwada
+      </div>
+    </div> 
+  </div>
+
+@endsection

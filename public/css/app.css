@@ -400,3 +400,20 @@ main .center-margin .load-more-btn {
 .text-upper {
   text-transform: uppercase;
 }
+
+.cta-content {
+  background-color: #f6f6f6;
+  border-top: 1px solid #e8e8e8;
+}
+.cta-content .cta-container {
+  display: flex;
+  justify-content: center;
+}
+.cta-content .cta-container .cta-col {
+  width: 14%;
+  border-right: 1px solid #e8e8e8;
+  padding: 0 15px;
+}
+.cta-content .cta-container .border-left {
+  border-left: 1px solid #e8e8e8;
+}

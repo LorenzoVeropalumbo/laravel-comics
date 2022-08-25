@@ -1,0 +1,19 @@
+.cta-content{
+  background-color: #f6f6f6;
+  border-top: 1px solid #e8e8e8;
+  
+  .cta-container{
+    display: flex;
+    justify-content: center;
+    
+    .cta-col{
+      width: 14%;
+      border-right: 1px solid #e8e8e8;
+      padding: 0 15px;
+    }
+    .border-left{
+      border-left: 1px solid #e8e8e8;
+    }
+  }
+  
+}
